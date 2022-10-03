@@ -1,0 +1,36 @@
+.error {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 50px 20px 50px;
+}
+
+.errorTitulo {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.botonDetalle {
+  padding: 15px;
+  margin-bottom: 70px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.botonDetalle:hover {
+  background-color: black;
+  color: white;
+}
+
+.divBotonDetalle {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+/*# sourceMappingURL=NotFound.css.map */

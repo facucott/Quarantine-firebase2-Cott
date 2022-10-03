@@ -1,0 +1,46 @@
+.cart-container{
+    text-align: center;
+    align-items: center;
+}
+
+.remove, .clear{
+    padding: 15px 25px;
+    &:hover{background-color: black; color: white}
+    text-align: center;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.carritovacio{
+    text-align: center;
+    align-items: center;
+}
+
+.comprar{
+    color: black;
+    background-color: white;
+    padding: 15px 25px;
+    &:hover{background-color: black; color: white}
+
+    text-decoration: none;
+}
+
+.iracomprar{
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+
+.cartcontainer {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    }
+
+.cartcontainer2{
+    padding: 15px;
+    margin-bottom: 70px;
+
+    &:hover{color:white; background-color:black}
+}

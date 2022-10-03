@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAA;EACH,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,MAAM;EACnB,WAAW,EAAE,IAAI;CACpB",
+    "sources": [
+        "Inicio.scss"
+    ],
+    "names": [],
+    "file": "Inicio.css"
+}

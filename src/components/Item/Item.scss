@@ -1,0 +1,67 @@
+.item-container{
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    display: inline;
+}
+
+img{
+    max-width: 300px;
+    padding: 0 0 30px 0;
+}
+
+.image{
+    transition: all .5s ease-in-out;
+    ;
+}
+
+.image:hover{
+    transform: scale(1.1);
+}
+
+.botonDetalle{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.botonDetalle:hover{
+    background-color: black;
+    color: white
+}
+
+//SCSS CARACTERISTICAS
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.agregar {
+    text-align: center;
+    align-items: center;
+    margin-left: 70px;
+    // margin: 0 0 30px 0;
+    
+    :hover {background-color: black; color: white}
+}
+
+.botonAgregar{
+    padding: 15px 25px;
+    &:hover{background-color: black; color: white}
+}
+
+.añadido{
+    padding-left: 50px;
+    
+}
+
+.productoañadido{
+    color: white;
+    background-color: black;
+    padding: 20px
+}
