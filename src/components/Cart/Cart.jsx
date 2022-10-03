@@ -3,7 +3,7 @@ import { CartContext } from '../CartContext/CartContext';
 import { useContext } from 'react';
 import ItemCart from '../ItemCart/ItemCart';
 import { Link } from 'react-router-dom';
-import { addDoc, collection, getFirestore } from 'firebase/firestore';
+import { addDoc, collection, getFirestore, updateDoc, doc, increment } from 'firebase/firestore';
 
 const Cart = () => {
     const { items, totalPrice, clearItems } = useContext(CartContext);
@@ -26,6 +26,13 @@ const Cart = () => {
         .then (({id}) => console.log(order));
         alert('YOUR ORDER HAS BEEN CREATED!');
         clearItems();
+
+        items.map (async (item) => {
+            const itemRef = doc(db, 'productos', item.id);
+            await updateDoc(itemRef, {
+                stock: increment(-item.count)
+            });
+        })
     
     }
 
